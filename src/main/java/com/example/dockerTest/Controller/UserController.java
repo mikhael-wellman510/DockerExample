@@ -43,7 +43,7 @@ public class UserController {
         return ResponseEntity.status(HttpStatus.OK)
                 .body(CommonResponse.<List<UserResponse>>builder()
                         .statusCode(HttpStatus.OK.value())
-                        .message("Sukses Find All Data User")
+                        .message("Sukses Find All Data User bos . Baru di Upgrade ni")
                         .data(userResponse)
                         .build()
                 );
